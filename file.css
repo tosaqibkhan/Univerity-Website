@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.head {
+    /* border: 1px solid black; */
+    height: 70px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+/* ------------------------------------- */
+.bg-pic {
+    background-image: url('./img/6.jpg');
+    height: 1000px;
+    background-position: 0% 50%;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.Bold-Text {
+    position: absolute;
+    top: 40%;
+    right: 20%;
+    left: 20%;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+
+}
+
+.p-text {
+    position: absolute;
+    top: 70%;
+    left: 45%;
+    color: white;
+    font-size: 2rem;
+}
+
+.btn {
+    position: absolute;
+    top: 75%;
+    left: 23%;
+}
+
+.btn button {
+    background-color: #f1c50e;
+    padding: 20px 40px;
+    margin: 20px;
+    border-radius: 40px;
+    font-size: 18px;
+    border-style: none;
+}
+
+.btn button:hover {
+    background-color: lightgray;
+}
+
+.p-text-1 {
+    position: absolute;
+    top: 90%;
+    left: 43%;
+    color: white;
+    font-size: 1.5rem;
+}
+
+/* ------------------------ */
+.main-1{
+    /* border: 1px solid black; */
+    display: flex;
+    height: 900px;
+}
+.part1{
+    width: 50%;
+    height: 800px;
+    position: relative;
+}
+.part1 img{
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    top: 25%;
+    border-radius: 35px;
+}
+.part2{
+    /* border: 1px solid blue; */
+    width: 50%;
+    height: 900px;
+    position: relative;
+}
+.part1 .text-1{
+ position: absolute;
+ top: 10%;
+ font-size: 42px;
+ text-align: center;
+ font-weight: bold ;
+}
+.part1 .text-2{
+    position: absolute;
+    top: 80%;
+    left: 12%;
+    font-size: 24px;
+    text-align: center;
+}
+
+.part2 .list li{
+    font-size: 24px;
+    list-style-type: none;
+}
+.part2 .list{
+    position: absolute;
+    top: 13%;
+    left: 28%;
+    text-align: center;
+    line-height: 60px;
+    font-size: 18px;
+    font-weight: 900;
+
+}
+/* -------------------------------- */
+.bg-1{
+    background-color:#f1c50e ;
+    height: 300px;
+    display: flex;
+    position: relative;
+}
+
+.bg-1 .img1{
+ position: absolute;
+ top: 30%;
+ left: 15%  ;
+}
+.bg-1 .img2{
+ position: absolute;
+ top: 62%;
+ left: 34%;
+}
+.bg-1 .img3{
+ position: absolute;
+ top: 30%;
+ right: 28%;
+}
+.bg-1 .img4{
+ position: absolute;
+ top: 62%;
+ right: 9%;
+}
+.bg-2{
+    background-color: #0d244b;
+    height: 700px;
+}
+.cards{
+    /* border: 1px solid yellow; */
+    height: 700px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+.card{
+    border: 1px solid white;
+    width: 250px;
+    height:300px;
+    position: absolute;
+    background-color: white;
+    border-radius: 30px;
+    top: 45%;
+
+}
+.card1{
+    border: 1px solid white;
+    width: 250px;
+    height:300px;
+    position: absolute;
+    background-color: white;
+    border-radius: 30px;
+    top: 45%;
+    left: 23%;
+}
+
+.card2{
+    border: 1px solid white;
+    width: 250px;
+    height:300px;
+    position: absolute;
+    background-color: white;
+    border-radius: 30px;
+    top: 45%;
+    left: 46%;
+}
+.card3{
+    border: 1px solid white;
+    width: 250px;
+    height:300px;
+    position: absolute;
+    background-color: white;
+    border-radius: 30px;
+    top: 45%;
+    right: 10%;
+}
+.card,.card1,.card2,.card3,i{
+    padding-top: 30px;
+}
+.card,.card1,.card2,.card3,h2,p{
+    padding-top: 20px;
+    font-size: 20px;
+}
+.pp{
+    position: absolute;
+    top: 90%;
+    left: 40%;
+    color: white;
+    font-size: 24px;
+}
